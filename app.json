@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Section Selector UIU",
+    "slug": "section-selector-uiu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/512.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/512.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.tahnoon.sectionselector"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f45f4ffc-f3de-4c96-8fb1-19c715632528"
+      }
+    }
+  }
+}

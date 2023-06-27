@@ -1,0 +1,167 @@
+[
+        {
+           "name":"Microprocessor ",
+           "section":"A",
+           "from":"11:40",
+           "to":"13:10",
+           "days":[
+              "sat",
+              "t"
+           ]
+        },
+        {
+           "name":"Microprocessor ",
+           "section":"B",
+           "from":"11:40",
+           "to":"13:10",
+           "days":[
+              "s",
+              "w"
+           ]
+        },
+        {
+           "name":"Microprocessor ",
+           "section":"C",
+           "from":"10:05",
+           "to":"11:35",
+           "days":[
+              "sat",
+              "t"
+           ]
+        },
+        {
+           "name":"Microprocessor ",
+           "section":"D",
+           "from":"10:05",
+           "to":"11:35",
+           "days":[
+              "s",
+              "w"
+           ]
+        },
+        {
+           "name":"Microprocessor ",
+           "section":"E",
+           "from":"10:05",
+           "to":"11:35",
+           "days":[
+              "s",
+              "w"
+           ]
+        },
+        {
+           "name":"MAD",
+           "section":"A",
+           "from":"14:00",
+           "to":"16:30",
+           "days":[
+              "w"
+           ]
+        },
+        {
+           "name":"Machine Learning",
+           "section":"A",
+           "from":"10:05",
+           "to":"11:35",
+           "days":[
+              "s",
+              "w"
+           ]
+        },
+        {
+           "name":"Software Engineering",
+           "section":"A",
+           "from":"10:05",
+           "to":"11:35",
+           "days":[
+              "s",
+              "w"
+           ]
+        },
+        {
+           "name":"Software Engineering",
+           "section":"B",
+           "from":"10:05",
+           "to":"11:35",
+           "days":[
+              "sat",
+              "t"
+           ]
+        },
+        {
+           "name":"Software Engineering",
+           "section":"C",
+           "from":"11:40",
+           "to":"13:10",
+           "days":[
+              "s",
+              "w"
+           ]
+        },
+        {
+           "name":"Software Engineering Lab",
+           "section":"A",
+           "from":"11:00",
+           "to":"13:30",
+           "days":[
+              "t"
+           ]
+        },
+        {
+           "name":"Software Engineering Lab",
+           "section":"B",
+           "from":"14:00",
+           "to":"16:30",
+           "days":[
+              "s"
+           ]
+        },
+        {
+           "name":"Software Engineering Lab",
+           "section":"C",
+           "from":"14:00",
+           "to":"16:30",
+           "days":[
+              "w"
+           ]
+        },
+        {
+           "name":"Software Engineering Lab",
+           "section":"D",
+           "from":"14:00",
+           "to":"16:30",
+           "days":[
+              "sat"
+           ]
+        },
+        {
+           "name":"Biology for Engineers ",
+           "section":"A",
+           "from":"11:40",
+           "to":"13:10",
+           "days":[
+              "s",
+              "w"
+           ]
+        },
+        {
+           "name":"Biology for Engineers ",
+           "section":"B",
+           "from":"11:40",
+           "to":"13:10",
+           "days":[
+              "sat",
+              "t"
+           ]
+        },
+        {
+           "name":"Biology for Engineers ",
+           "section":"C",
+           "from":"10:05",
+           "to":"11:35",
+           "days":[
+              "sat",
+              "t"
+           ]
+        }
+     ]
