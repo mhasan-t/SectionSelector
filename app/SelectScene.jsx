@@ -25,8 +25,6 @@ export default function SelectScene({ navigation }) {
 
 	useEffect(() => {
 		if (inputs.length == 0) setInputs([["", "", "", "", ""]]);
-		if (Appearance.getColorScheme() == "dark")
-			Alert.alert("WARNING", "Dark mode is not supported.");
 
 		if (!dataLoaded) {
 			try {
