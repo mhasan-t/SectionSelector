@@ -24,8 +24,6 @@ export default function SelectScene({ navigation }) {
 	const scrollRef = useRef(null);
 
 	useEffect(() => {
-		if (inputs.length == 0) setInputs([["", "", "", "", ""]]);
-
 		if (!dataLoaded) {
 			try {
 				AsyncStorage.getItem("@sectionselector:data").then((value) => {
@@ -43,7 +41,11 @@ export default function SelectScene({ navigation }) {
 				// error reading value
 			}
 		}
-	});
+	}, []);
+
+	useEffect(() => {
+		if (inputs.length == 0) setInputs([["", "", "8:30", "10:00", "sat,t"]]);
+	}, [inputs]);
 
 	let timeIsSmallerOrEqual = function (t1, t2) {
 		if (parseInt(t1.split(":")[0]) == parseInt(t2.split(":")[0])) {
@@ -74,6 +76,7 @@ export default function SelectScene({ navigation }) {
 						"End time can't be smaller or equal to start time.",
 				};
 			}
+			console.log(inputs[i]);
 			for (let j = 0; j < inputs[i].length; j++) {
 				if (!inputs[i][j] || inputs[i][j] == "") {
 					return {
