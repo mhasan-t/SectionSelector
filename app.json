@@ -24,7 +24,8 @@
         "foregroundImage": "./assets/512.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.tahnoon.sectionselector"
+      "package": "com.tahnoon.sectionselector",
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/logo.png"

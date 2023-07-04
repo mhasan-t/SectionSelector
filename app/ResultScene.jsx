@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
 	ScrollView,
 	View,
@@ -10,7 +10,6 @@ import {
 } from "react-native";
 import RoutineComponent from "./RoutineComponent";
 import RoutineManager from "./RoutineManager";
-import SelectorModal from "./SelectorModal";
 
 export default function ResultScene({ route, navigation }) {
 	let { data } = route.params;
@@ -57,7 +56,6 @@ export default function ResultScene({ route, navigation }) {
 							alignItems: "center",
 						}}
 					>
-						{/* <Text style={[styles.midText]}>😿</Text> */}
 						<Text style={styles.sadText}>
 							There is no way you can take all the given courses.
 							😿
@@ -80,24 +78,19 @@ const styles = StyleSheet.create({
 		marginBottom: 20,
 	},
 	resultSceneContainer: {
-		// marginTop: 10,
 		height: "100%",
 		width: "100%",
-		// borderWidth: 1,
+
 		backgroundColor: "#ffffff",
 		flex: 1,
 		alignItems: "center",
-		// borderWidth: 1,
 	},
 	resultContainer: {
 		marginTop: 10,
 		width: Dimensions.get("window").width - 20,
-		// borderWidth: 1,
 	},
 	routineContainer: {
-		// width: "95%",
 		height: "100%",
-		// borderWidth: 1,
 	},
 
 	routine: {
@@ -109,7 +102,6 @@ const styles = StyleSheet.create({
 		borderRadius: 10,
 		backgroundColor: "#ffaf5e",
 		marginBottom: 15,
-		// backgroundColor: "lime",
 	},
 
 	noResultSceneContainer: {
@@ -119,7 +111,6 @@ const styles = StyleSheet.create({
 		flex: 1,
 		justifyContent: "center",
 		alignItems: "center",
-		// borderWidth: 1,
 	},
 	sadContentContainer: {
 		justifyContent: "center",
@@ -129,28 +120,25 @@ const styles = StyleSheet.create({
 	image: {
 		flex: 1,
 		justifyContent: "center",
-		// borderWidth: 1,
+
 		marginBottom: 40,
-		// borderRadius: 10,
 	},
 	sadImage: {
 		width: Dimensions.get("window").width - 100,
 		height: Dimensions.get("window").width - 100,
 		resizeMode: "contain",
-		// borderWidth: 1,
 	},
 	midText: {
 		fontSize: 50,
 	},
 	sadText: {
-		// marginTop: 20,
 		fontSize: 25,
 		fontWeight: "bold",
 		textAlign: "center",
 		color: "red",
 
 		textShadowColor: "rgba(0, 0, 0, 1)",
-		// textShadowOffset: { width: 0, height: 0 },
+
 		textShadowRadius: 20,
 	},
 });

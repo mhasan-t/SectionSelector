@@ -37,9 +37,7 @@ export default function SelectScene({ navigation }) {
 						);
 					}
 				});
-			} catch (e) {
-				// error reading value
-			}
+			} catch (e) {}
 		}
 	}, []);
 
@@ -212,7 +210,7 @@ const styles = StyleSheet.create({
 		flex: 1,
 		flexDirection: "column",
 		alignItems: "center",
-		// marginTop: 25,
+
 		backgroundColor: "#ffffff",
 		height: "100%",
 		width: "100%",
@@ -224,11 +222,11 @@ const styles = StyleSheet.create({
 
 	inputContainer: {
 		position: "relative",
-		// flex: 1,
+
 		flexDirection: "column",
-		// justifyContent : "center",
+
 		alignItems: "center",
-		// borderWidth: 1,
+
 		marginTop: 25,
 		paddingBottom: 25,
 		width: Dimensions.get("screen").width,
@@ -236,7 +234,6 @@ const styles = StyleSheet.create({
 	},
 
 	inputComponentContainer: {
-		// padding : 5,
 		width: "100%",
 		flexDirection: "column",
 		justifyContent: "center",
