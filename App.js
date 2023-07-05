@@ -64,7 +64,7 @@ export default function App() {
 const { width, height } = Dimensions.get("window");
 const styles = StyleSheet.create({
 	container: {
-		marginTop: StBarHeight,
+		// marginTop: StBarHeight,
 		flex: 1,
 		backgroundColor: "#ffffff",
 	},
