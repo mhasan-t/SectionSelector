@@ -101,13 +101,13 @@ export default function InputComponent({
 							setPickedTimeFrom(itemValue);
 						}}
 					>
-						<Picker.Item label="8:30 AM" value="8:30" />
-						<Picker.Item label="10:05 AM" value="10:05" />
-						<Picker.Item label="11:00 AM" value="11:00" />
-						<Picker.Item label="11:40 AM" value="11:40" />
-						<Picker.Item label="1:30 PM" value="13:30" />
+						<Picker.Item label="8:30 AM" value="08:30" />
+						<Picker.Item label="9:51 AM" value="09:51" />
+						<Picker.Item label="11:11 AM" value="11:11" />
+						<Picker.Item label="12:31 PM" value="12:31" />
+						<Picker.Item label="1:51 PM" value="13:51" />
 						<Picker.Item label="2:00 PM" value="14:00" />
-						<Picker.Item label="3:00 PM" value="15:00" />
+						<Picker.Item label="3:11 PM" value="15:11" />
 					</Picker>
 				</View>
 
@@ -120,12 +120,13 @@ export default function InputComponent({
 							setPickedTimeTo(itemValue);
 						}}
 					>
-						<Picker.Item label="10:00 AM" value="10:00" />
+						<Picker.Item label="9:50 AM" value="09:50" />
 						<Picker.Item label="11:00 AM" value="11:00" />
-						<Picker.Item label="11:35 AM" value="11:35" />
-						<Picker.Item label="1:10 PM" value="13:10" />
-						<Picker.Item label="1:30 PM" value="13:30" />
-						<Picker.Item label="3:00 PM" value="15:00" />
+						<Picker.Item label="11:10 AM" value="11:10" />
+						<Picker.Item label="12:30 PM" value="12:30" />
+						<Picker.Item label="1:40 PM" value="13:40" />
+						<Picker.Item label="1:50 PM" value="13:50" />
+						<Picker.Item label="3:10 PM" value="15:10" />
 						<Picker.Item label="4:30 PM" value="16:30" />
 					</Picker>
 				</View>
